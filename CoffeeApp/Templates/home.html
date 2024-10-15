@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% comment %} <h1>Coffee Shop Web Application</h1> {% endcomment %}
+<div class="container pt-5">
+  <div class="title-container pt-3">
+      <h1 class="site-title mt-3">welcome to the coffee shop</h1>
+  </div>
+  <hr>
+<br>
+
+<div class="row">
+    {% for coffee in coffee %}
+        <div class="col">
+            <div class="card" style="width: 20rem;">
+                <img src="{{ coffee.img }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ coffee.name }}</h5>
+                    <p class="card-text">${{ coffee.price }}</p>
+                    <a href="t.html" class="btn btn-primary" onclick="showPopup()">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+<script type="text/javascript">
+    function showPopup() {
+        alert("Item added successfully!");
+        alert("THANK YOU!!")
+    }
+</script>
+
+
+{% endblock %}
