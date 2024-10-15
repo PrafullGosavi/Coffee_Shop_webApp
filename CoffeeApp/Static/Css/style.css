@@ -1,0 +1,89 @@
+/* style.css */
+
+body {
+    background-color: #dabebe;
+    /* Example background color */
+}
+hr{
+    background-color: rgb(236, 12, 180);
+    height: 10px;
+    width: 100%;
+}
+.navbar{
+    background-color: #000;
+}
+
+/* Styles for the site title */
+.site-title {
+    color: #e0e3e6;
+    /* Blue color for the title */
+    font-size: 2.5rem;
+    /* Larger font size */
+    font-weight: bold;
+    /* Bold font weight */
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.col {
+    margin: 10px;
+}
+
+/* Ensures all card bodies are the same height */
+.card-body {
+    height: 150px;
+    /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Ensures the card images fit within the card */
+.card-img-top {
+    height: 260px;
+    /* Adjust the height as needed */
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+/* Optional: Style for the card container */
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;/
+}
+
+
+.card-title {
+    color: #000;
+    /* Color for card title */
+}
+
+.card-text {
+    color: #666;
+    /* Color for card text */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    /* Primary button color */
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* Button hover color */
+    border-color: #004085;
+}
+
+/* //........ Footer ...... // */
+
+/* style.css */
+
