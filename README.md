@@ -25,11 +25,12 @@ Project 4: Developed 2 Python games.
 <br>
 <ul>
   <li>
-    <b>python:<b> Python is used to define models, which represent the data structure of the application. These models are translated into database tables by Django's ORM (Object-Relational Mapping).<br>
+    <b>python:<b> 
+      Python is used to define models, which represent the data structure of the application. These models are translated into database tables by Django's ORM (Object-Relational Mapping).<br>
     Views in Django are Python functions or classes that handle the logic behind HTTP requests and responses.<br>
-    Python is used to define URL patterns that route specific URLs to corresponding views.
-    Although templates are primarily written in HTML, Python-like syntax is used for dynamic content rendering.
-    Python is used to configure and extend Django’s built-in admin panel.
+    Python is used to define URL patterns that route specific URLs to corresponding views.<br>
+    Although templates are primarily written in HTML, Python-like syntax is used for dynamic content rendering.<br>
+    Python is used to configure and extend Django’s built-in admin panel.<br>
   </li>
       <li>
     <b>Django:<b> Django is a powerful Python web framework that is used for developing web applications quickly and efficiently. It follows the Model-View-Template (MVT) architectural pattern and comes with numerous built-in features to simplify development. .
